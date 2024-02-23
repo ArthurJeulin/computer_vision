@@ -45,6 +45,11 @@ jobs:
             c_compiler: cl
 
     steps:
+    - name: run-vcpkg
+      uses: lukka/run-vcpkg@v11.5
+      with:
+        vcpkgJsonGlob: 'vcpkg.json'
+  
     - uses: actions/checkout@v3
 
     - name: Set reusable strings
