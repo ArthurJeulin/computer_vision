@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/image_matrix_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/image_matrix.dir/image_matrix_autogen/mocs_compilation.cpp.o -c /ssd/dev/computer_vision/build/week_1/image_matrix_autogen/mocs_compilation.cpp",
+  "file": "/ssd/dev/computer_vision/build/week_1/image_matrix_autogen/mocs_compilation.cpp",
+  "output": "week_1/CMakeFiles/image_matrix.dir/image_matrix_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/image_matrix_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/image_matrix.dir/image_matrix.cpp.o -c /ssd/dev/computer_vision/week_1/image_matrix.cpp",
+  "file": "/ssd/dev/computer_vision/week_1/image_matrix.cpp",
+  "output": "week_1/CMakeFiles/image_matrix.dir/image_matrix.cpp.o"
+},
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/manipuling_pixels_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/manipuling_pixels.dir/manipuling_pixels_autogen/mocs_compilation.cpp.o -c /ssd/dev/computer_vision/build/week_1/manipuling_pixels_autogen/mocs_compilation.cpp",
+  "file": "/ssd/dev/computer_vision/build/week_1/manipuling_pixels_autogen/mocs_compilation.cpp",
+  "output": "week_1/CMakeFiles/manipuling_pixels.dir/manipuling_pixels_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/manipuling_pixels_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/manipuling_pixels.dir/manipuling_pixels.cpp.o -c /ssd/dev/computer_vision/week_1/manipuling_pixels.cpp",
+  "file": "/ssd/dev/computer_vision/week_1/manipuling_pixels.cpp",
+  "output": "week_1/CMakeFiles/manipuling_pixels.dir/manipuling_pixels.cpp.o"
+},
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/display_fonctions_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/display_fonctions.dir/display_fonctions_autogen/mocs_compilation.cpp.o -c /ssd/dev/computer_vision/build/week_1/display_fonctions_autogen/mocs_compilation.cpp",
+  "file": "/ssd/dev/computer_vision/build/week_1/display_fonctions_autogen/mocs_compilation.cpp",
+  "output": "week_1/CMakeFiles/display_fonctions.dir/display_fonctions_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/display_fonctions_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/display_fonctions.dir/display_fonctions.cpp.o -c /ssd/dev/computer_vision/week_1/display_fonctions.cpp",
+  "file": "/ssd/dev/computer_vision/week_1/display_fonctions.cpp",
+  "output": "week_1/CMakeFiles/display_fonctions.dir/display_fonctions.cpp.o"
+},
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/save_image_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/save_image.dir/save_image_autogen/mocs_compilation.cpp.o -c /ssd/dev/computer_vision/build/week_1/save_image_autogen/mocs_compilation.cpp",
+  "file": "/ssd/dev/computer_vision/build/week_1/save_image_autogen/mocs_compilation.cpp",
+  "output": "week_1/CMakeFiles/save_image.dir/save_image_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/save_image_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/save_image.dir/save_image.cpp.o -c /ssd/dev/computer_vision/week_1/save_image.cpp",
+  "file": "/ssd/dev/computer_vision/week_1/save_image.cpp",
+  "output": "week_1/CMakeFiles/save_image.dir/save_image.cpp.o"
+},
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/color_img_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/color_img.dir/color_img_autogen/mocs_compilation.cpp.o -c /ssd/dev/computer_vision/build/week_1/color_img_autogen/mocs_compilation.cpp",
+  "file": "/ssd/dev/computer_vision/build/week_1/color_img_autogen/mocs_compilation.cpp",
+  "output": "week_1/CMakeFiles/color_img.dir/color_img_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/ssd/dev/computer_vision/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-10 -I/ssd/dev/computer_vision/build/week_1/color_img_autogen/include -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include/opencv -I/ssd/dev/computer_vision/build/vcpkg_installed/arm64-linux/include -g -std=gnu++2a -o week_1/CMakeFiles/color_img.dir/color_img.cpp.o -c /ssd/dev/computer_vision/week_1/color_img.cpp",
+  "file": "/ssd/dev/computer_vision/week_1/color_img.cpp",
+  "output": "week_1/CMakeFiles/color_img.dir/color_img.cpp.o"
+}
+]

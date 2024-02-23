@@ -1,0 +1,108 @@
+Package: zlib
+Version: 1.2.11
+Port-Version: 10
+Architecture: arm64-linux
+Multi-Arch: same
+Abi: c269339f5f80fdf184a8e007598df980d608ffaa
+Description: A compression library
+Type: Port
+Status: install ok installed
+
+Package: liblzma
+Version: 5.2.5
+Port-Version: 2
+Architecture: arm64-linux
+Multi-Arch: same
+Abi: d4f2f9dd740713cff9ae14d79a9e10275b5982c4
+Description: Compression library with an API similar to that of zlib.
+Type: Port
+Status: install ok installed
+
+Package: libjpeg-turbo
+Version: 2.0.6
+Architecture: arm64-linux
+Multi-Arch: same
+Abi: 3fd24cad00db1807a36edc9e9bda9bb66e63e598
+Description: libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, NEON, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, ARM, and PowerPC systems.
+Type: Port
+Status: install ok installed
+
+Package: tiff
+Version: 4.1.0
+Port-Version: 2
+Depends: libjpeg-turbo, liblzma, zlib
+Architecture: arm64-linux
+Multi-Arch: same
+Abi: afb6fcbf706b1ce3754b276cc71c7a68fcb4d03b
+Description: A library that supports the manipulation of TIFF image files
+Type: Port
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.37
+Port-Version: 14
+Depends: zlib
+Architecture: arm64-linux
+Multi-Arch: same
+Abi: dd2572faad06cba6b348c76bfcec307aed8dddf0
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files.
+Type: Port
+Status: install ok installed
+
+Package: eigen3
+Version: 3.3.9
+Architecture: arm64-linux
+Multi-Arch: same
+Abi: 8cd016d67e8fa5f1dbbd69c5d17882314b88ce05
+Description: C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.
+Type: Port
+Status: install ok installed
+
+Package: opencv2
+Version: 2.4.13.7
+Port-Version: 5
+Depends: zlib
+Architecture: arm64-linux
+Multi-Arch: same
+Abi: 3b318848132edb2fdc7c27ac42c24c7c5d5e2bf9
+Description: computer vision library, version 2
+Type: Port
+Default-Features: eigen, jpeg, png, tiff
+Status: install ok installed
+
+Package: opencv2
+Feature: eigen
+Depends: eigen3
+Architecture: arm64-linux
+Multi-Arch: same
+Description: Eigen support for opencv
+Type: Port
+Status: install ok installed
+
+Package: opencv2
+Feature: jpeg
+Depends: libjpeg-turbo
+Architecture: arm64-linux
+Multi-Arch: same
+Description: JPEG support for opencv
+Type: Port
+Status: install ok installed
+
+Package: opencv2
+Feature: png
+Depends: libpng
+Architecture: arm64-linux
+Multi-Arch: same
+Description: PNG support for opencv
+Type: Port
+Status: install ok installed
+
+Package: opencv2
+Feature: tiff
+Depends: tiff
+Architecture: arm64-linux
+Multi-Arch: same
+Description: TIFF support for opencv
+Type: Port
+Status: install ok installed
+
