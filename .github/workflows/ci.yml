@@ -24,19 +24,10 @@ jobs:
         with:
           submodules: true
 
-      - name: Restore from cache and install vcpkg
-        uses: "lukka/run-vcpkg@v2"
-        with:
-          vcpkgDirectory: '${{ github.workspace }}/vcpkg'
-          setupOnly: true
-
-      - name: Cache vcpkg_modules
-        uses: "actions/cache@v1"
-        with:
-          path: vcpkg_modules
-          key: ${{ matrix.os }}-modules-${{ hashFiles('vcpkg.json') }}
-          restore-keys: |
-            ${{ matrix.os }}-modules-ue
+      - name: Setup anew (or from cache) vcpkg (and does not build any package)
+        uses: lukka/run-vcpkg@v11 # Always specify the specific _version_ of the
+                                  # action you need, `v11` in this case to stay up
+                                  # to date with fixes on the v11 branch.
 
 
       - name: Configure and build dependencies
