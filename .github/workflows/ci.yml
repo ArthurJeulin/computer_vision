@@ -17,7 +17,6 @@ jobs:
         os: [ubuntu-latest]
         include:
           - os: ubuntu-latest
-            bin: vcpkg-example
     steps:
       - uses: "lukka/get-cmake@latest"
       
@@ -26,10 +25,18 @@ jobs:
           submodules: true
 
       - name: Restore from cache and install vcpkg
-        uses: "lukka/run-vcpkg@v11" 
+        uses: "lukka/run-vcpkg@v2"
         with:
           vcpkgDirectory: '${{ github.workspace }}/vcpkg'
           setupOnly: true
+
+      - name: Cache vcpkg_modules
+        uses: "actions/cache@v1"
+        with:
+          path: vcpkg_modules
+          key: ${{ matrix.os }}-modules-${{ hashFiles('vcpkg.json') }}
+          restore-keys: |
+            ${{ matrix.os }}-modules-ue
 
 
       - name: Configure and build dependencies
