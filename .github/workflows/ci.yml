@@ -27,7 +27,7 @@ jobs:
       - name: Restore from cache and install vcpkg
         uses: "lukka/run-vcpkg@v11"
         with:
-          vcpkgDirectory: '${{ github.workspace }}/vcpkg'
+          vcpkgDirectory: '${{ github.workspace }}'
           setupOnly: true
 
       - name: Cache vcpkg_modules
